@@ -30,17 +30,6 @@ data = response.json()
 **3. Handling Pagination and Rate Limiting**
 
 Reddit API responses are paginated, meaning you may need to make multiple requests to retrieve all desired data. Use the `after` parameter to paginate through posts or comments. Additionally, be mindful of Reddit's rate limits to avoid being throttled or banned.
-Apologies for the oversight! Here's the section on handling pagination and rate limiting (number 4):
-
----
-
-**4. Handling Pagination and Rate Limiting**
-
-When interacting with the Reddit API, it's essential to understand and manage pagination and rate limiting to ensure smooth data retrieval and avoid being throttled or banned by Reddit's servers.
-
-**Pagination:**
-
-Reddit API responses are paginated, meaning that only a certain number of items are returned in each request. To retrieve additional items beyond the initial response, you need to navigate through pages using pagination parameters.
 
 ```python
 # Example of handling pagination
